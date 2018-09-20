@@ -2,3 +2,5 @@
 /.vscode
 /dist
 /.cache
+/.rpt2_cache
+/tmp

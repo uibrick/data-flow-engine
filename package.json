@@ -7,10 +7,27 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "watch": "parcel watch src/index.ts"
+    "start": "webpack",
+    "dev": "webpack --progress --mode=development"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.9.7",
-    "typescript": "^3.0.3"
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.31",
+    "@types/mongodb": "^3.1.4",
+    "nodemon": "^1.18.4",
+    "rollup": "^0.65.2",
+    "rollup-plugin-commonjs": "^9.1.6",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-typescript2": "^0.17.0",
+    "ts-loader": "^5.1.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "koa": "^2.0.0-alpha.8",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.1.4"
   }
 }
